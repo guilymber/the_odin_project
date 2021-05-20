@@ -1,4 +1,4 @@
-Exercício poporsto.<br><br>
+Exercício poporsto.
 
 Tentar recriar a página do google<br>
 Duas maneiras de mover um div pela página<br>
