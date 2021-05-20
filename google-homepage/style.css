@@ -1,22 +1,16 @@
 .general {
+    font-size: 14px;
 
 }
 
 .startright {
-    float: right;
-    width: 5%;
-    text-align: center;
-}
-
-/*
-.start {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    margin-left: 85%;
-    
+    float: right;
+    width: 250px;
+    justify-content: space-around;
+    margin-top: 10px;
 }
-*/
 
 .middle {
     text-align: center;
@@ -42,28 +36,68 @@ input {
     
 }
 
-#input, button {
+button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border-color: transparent;
+}
+
+#input  {
     font-size: 14px;
     font-family: arial,sans-serif;
     color: #222;
     margin-bottom: 20px;
-    
+    border-color: transparent;
 }
 
+.line {
+    display: flex;
+    float: right;
+    margin-top: 20px;
+ 
+    border-bottom: 1px solid #dadce0;
+}
 
 .footer0 {
     display: flex;
     flex-direction: column;
     align-items: left;
-    margin-top: 1%;
     background: #F2F2F2;
-    padding: 5%;
-    
+    padding: 1%;
+    color: #70757a;
+
 }
 
-.footer1 {
+
+.direita {
     display: flex;
     flex-direction: row;
+    float: right;
+    width: 250px;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+
+.esquerda {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: 400px;
+    justify-content: space-around;
+    margin-top: 35px;
 }
 
 input:hover {
@@ -71,19 +105,31 @@ input:hover {
     border-color: rgba(223,225,229,0);
 }
 
+a:link, a:visited { 
+ text-decoration:none;
+ color: #70757a;
+} 
 
-
-/*
-
-
-.esquerda {
-    margin-left: 50px;
+a:hover {
+	text-decoration: underline; 
+	color: black
 }
 
-.direita {
-
-
+#en {
+    color: blue;
+    font-size: 14px;
+}
+#br { 
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: 50px;
+    justify-content: space-around;
+    font-size: 16;
 }
 
-*/
+#blackcolor {
+    color: black;
+}
+ 
 
