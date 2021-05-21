@@ -131,5 +131,15 @@ a:hover {
 #blackcolor {
     color: black;
 }
- 
-
+.icon {
+    position: relative;
+  }
+  
+  .icon i {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    padding: 7px 310px;
+    color: #aaa;
+    transition: 0.3s;
+  }
