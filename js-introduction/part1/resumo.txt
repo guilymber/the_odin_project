@@ -1,0 +1,9 @@
+Resumo
+
+Podemos declarar variáveis para armazenar dados usando os var, let ou constpalavras-chave.
+let - é uma declaração de variável moderna.
+var- é uma declaração de variável da velha escola. Normalmente não o usamos, mas cobriremos as diferenças sutis letno capítulo O antigo "var" , apenas no caso de você precisar deles.
+const- é semelhante let, mas o valor da variável não pode ser alterado.
+As variáveis ​​devem ser nomeadas de uma forma que nos permita entender facilmente o que está dentro delas.
+
+
