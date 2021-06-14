@@ -12,8 +12,7 @@ function userPlay(){
 alert("Vamos jogar joquempo???");
 let scoreUser = 0;
 let scorePc = 0;
-for (let i = 1; i <= 5; i++)
-{
+for (let i = 1; i <= 5; i++){
     let pc = computerPlay(); // chama função computerplay
     let user = userPlay(); // chama a função userplay
     console.log("O Usuario escolheu", user); //conferindo escolha user
@@ -37,7 +36,6 @@ for (let i = 1; i <= 5; i++)
             return("PC Ganhou");
         }
     }
-
     console.log(result());
     console.log("Score user é: ", scoreUser);
     console.log("Score pc é: ", scorePc);
